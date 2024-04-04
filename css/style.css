@@ -34,7 +34,7 @@ main, aside {
     width: 45%;
     padding: 20px;
 }
-main {
+.main_class {
     background-color: #f0f0f0;
     width: 70%;
 }
@@ -42,14 +42,20 @@ main {
 
 aside {
     background-color: #e0e0e0;
-    width: 15%;
-    padding: 50px;
+    width: 18%;
+    padding: 52px;
 }
 
-section{
+.section1{
     background-color: #333;
     color:#fff;
-    padding: 10px;
+    padding: 7px;
+}
+
+.section2{
+    background-color: #3911ec;
+    color:#fff;
+    padding: 7px;
 }
 
 @media only screen and (max-width: 600px) {
