@@ -36,24 +36,90 @@ main, aside {
 }
 .main_class {
     background-color: #f0f0f0;
-    width: 70%;
+    width: 65%;
 }
 
 
 aside {
     background-color: #e0e0e0;
-    width: 18%;
-    padding: 52px;
+    width: 10%;
+    padding: 100px;
 }
 
 .section1{
     background-color: #333;
     color:#fff;
-    padding: 7px;
+    padding: 10px;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.imagem-sec1 {
+    margin: auto;
+    height: 100%;
+    width: 199990px;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #ece3e3;
+    bottom: 20px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    top: 10;
+}
+
+.slider li:nth-child(2) label {
+    left: 30px;
+    top: 10;
+}
+
+.slider li:nth-child(3) label {
+    left: 50px;
+    top: 10;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
 }
 
 .section2{
-    background-color: #3911ec;
+    background-color: #333;
     color:#fff;
     padding: 7px;
 }
