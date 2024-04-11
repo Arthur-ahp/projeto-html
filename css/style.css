@@ -43,6 +43,7 @@ main, aside {
 aside {
     background-color: #e0e0e0;
     width: 10%;
+    height: 385px;
     padding: 100px;
 }
 
@@ -53,11 +54,11 @@ aside {
 }
 
 .slider {
-    display: block;
-    height: 293px;
-    width: 600px;
+    display: flex;
+    height: 400px;
+    width: 1000px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 0px;
     position: relative;
 }
 
@@ -69,7 +70,7 @@ aside {
 .imagem-sec1 {
     margin: auto;
     height: 100%;
-    width: 199990px;
+    width: 100px;
     vertical-align: top;
 }
 
@@ -78,7 +79,6 @@ aside {
 }
 
 .slider label {
-    background-color: #ece3e3;
     bottom: 20px;
     cursor: pointer;
     display: block;
@@ -86,36 +86,60 @@ aside {
     position: absolute;
     width: 10px;
     z-index: 10;
+    transition: .6s;
+}
+
+.slider label:hover{
+    background-color: #fff;
 }
 
 .slider li:nth-child(1) label {
-    left: 10px;
-    top: 10;
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    left: 320px;
+    top: 370px;
+    border-radius: 5px;
 }
 
 .slider li:nth-child(2) label {
-    left: 30px;
-    top: 10;
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    left: 380px;
+    top: 370px;
+    border-radius: 5px;
 }
 
 .slider li:nth-child(3) label {
-    left: 50px;
-    top: 10;
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    left: 440px;
+    top: 370px;
+    border-radius: 5px;
 }
+
 
 .slider img {
     opacity: 0;
     visibility: hidden;
+    transition: .4s;
+    width: 100%;
+    height: 100%;
 }
 
 .slider li input:checked ~ img {
     opacity: 1;
     visibility: visible;
-    z-index: 10;
-    max-width:400px;
-    max-height:300px;
-    width: auto;
-    height: auto;
+    width:880px;
+    height:400px;
 }
 
 .section2{
