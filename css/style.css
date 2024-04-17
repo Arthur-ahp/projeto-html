@@ -21,11 +21,14 @@ nav ul li a {
 .aside{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding: 150px;
-    width: 187px;
-    line-height: 35px;
+    height: 380px;
+    width: 180px;
+    line-height: 37px;
     font-size: 18px;
     transition: font-size 0.3s ease-in-out;
     text-decoration: none;
+    background-color: #333;
+    color: #fff;
 }
 
 .topico{
@@ -52,15 +55,20 @@ nav ul li a {
     transition: font-size 0.3s ease-in-out;
 }
 
-.li1:hover{
-    font-size: 24px;
+#aside-topicos{
+    margin-right: -100px;
 }
 
-.li2:hover{
-    font-size: 24px;
+.aside-item{
+    padding-bottom: 10px;
 }
 
-.li3:hover{
+.aside-item a{
+    text-decoration: none;
+    color:#fff
+}
+
+.aside-item:hover{
     font-size: 24px;
 }
 
@@ -189,7 +197,7 @@ aside {
 }
 
 .section2{
-    background-color: #333;
+    background-color: #646262;
     color:#fff;
     padding: 7px;
 }
@@ -210,11 +218,22 @@ main{
     text-align: center;
 }
 
+.login{
+    margin-top: 25px;
+    border-radius: 300px;
+}
+
+#area{
+    width: 302px;
+    height: 20px;
+}
+
 #enviar{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 170px;
-    height: 25px;
-    background-color: rgb(88, 88, 207);
+    width: 310px;
+    height: 30px;
+    background-color: rgb(68, 239, 159);
+
 }
 
 @media only screen and (max-width: 600px) {
