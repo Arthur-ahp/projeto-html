@@ -238,7 +238,7 @@ main{
     width: 310px;
     height: 30px;
     background-color: rgb(68, 239, 159);
-
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {
