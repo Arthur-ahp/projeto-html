@@ -226,6 +226,11 @@ main{
 #area{
     width: 302px;
     height: 20px;
+    border-radius: 5px;
+}
+
+#msg{
+    border-radius: 5px;
 }
 
 #enviar{
